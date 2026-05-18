@@ -1,0 +1,15 @@
+---
+argument_specs:
+  main:
+    short_description: "Scale NVIDIA NIM deployments"
+    options:
+      nim_scale_endpoint_name:
+        description: Nim Scale Endpoint Name
+        type: str
+        required: true
+      nim_scale_replicas:
+        description: Nim Scale Replicas
+        type: str
+      nim_scale_api_url:
+        description: Nim Scale Api Url
+        type: str

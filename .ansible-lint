@@ -1,0 +1,9 @@
+---
+exclude_paths:
+  - tests/integration/
+  - extensions/molecule/
+skip_list:
+  - var-naming[no-role-prefix]
+  - yaml[line-length]
+  - yaml[truthy]
+  - args[module]

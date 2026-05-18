@@ -1,0 +1,15 @@
+---
+argument_specs:
+  main:
+    short_description: "Monitor NVIDIA NIM endpoint health and performance"
+    options:
+      nim_monitor_endpoint_name:
+        description: Nim Monitor Endpoint Name
+        type: str
+        required: true
+      nim_monitor_api_url:
+        description: Nim Monitor Api Url
+        type: str
+      nim_monitor_interval:
+        description: Nim Monitor Interval
+        type: str

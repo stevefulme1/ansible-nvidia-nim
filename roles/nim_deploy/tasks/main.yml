@@ -1,0 +1,9 @@
+---
+- name: Validate
+  ansible.builtin.assert:
+    that: nim_deploy_endpoint_name is defined
+    quiet: true
+
+- name: Execute nim_deploy
+  ansible.builtin.debug:
+    msg: "Deploy NVIDIA NIM inference endpoints"

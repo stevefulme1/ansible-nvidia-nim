@@ -1,0 +1,15 @@
+---
+argument_specs:
+  main:
+    short_description: "Deploy NVIDIA NIM inference endpoints"
+    options:
+      nim_deploy_endpoint_name:
+        description: Nim Deploy Endpoint Name
+        type: str
+        required: true
+      nim_deploy_model_id:
+        description: Nim Deploy Model Id
+        type: str
+      nim_deploy_api_url:
+        description: Nim Deploy Api Url
+        type: str

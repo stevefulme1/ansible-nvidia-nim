@@ -1,0 +1,9 @@
+---
+- name: Validate
+  ansible.builtin.assert:
+    that: nim_scale_endpoint_name is defined
+    quiet: true
+
+- name: Execute nim_scale
+  ansible.builtin.debug:
+    msg: "Scale NVIDIA NIM deployments"

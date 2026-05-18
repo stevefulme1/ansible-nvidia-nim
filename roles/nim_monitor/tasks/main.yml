@@ -1,0 +1,9 @@
+---
+- name: Validate
+  ansible.builtin.assert:
+    that: nim_monitor_endpoint_name is defined
+    quiet: true
+
+- name: Execute nim_monitor
+  ansible.builtin.debug:
+    msg: "Monitor NVIDIA NIM endpoint health and performance"
