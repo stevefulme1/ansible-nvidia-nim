@@ -4,3 +4,4 @@ __pycache__/
 tests/output/
 .tox/
 .nox/
+*.tar.gz
