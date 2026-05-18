@@ -1,23 +1,25 @@
-    ---
-    namespace: stevefulme1
-    name: nvidia_nim
-    version: 1.0.0
-    readme: README.md
-    authors:
-      - Steve Fulmer <sfulmer@redhat.com>
-    description: >-
-      Ansible Collection for NVIDIA NIM (Inference Microservices). Provides modules for managing NIM endpoints, deployments, models, caching, scaling policies, and monitoring.
-    license:
-      - GPL-3.0-or-later
-    tags:
-      - 
-infrastructure  - cloud  - monitoring  - tools
-    dependencies: {}
-    repository: https://github.com/stevefulme1/ansible-nvidia-nim
-    documentation: https://github.com/stevefulme1/ansible-nvidia-nim/blob/main/README.md
-    homepage: https://github.com/stevefulme1/ansible-nvidia-nim
-    issues: https://github.com/stevefulme1/ansible-nvidia-nim/issues
-    build_ignore:
-      - .git
-      - .github
-      - tests/output
+---
+namespace: stevefulme1
+name: nvidia_nim
+version: 1.0.0
+readme: README.md
+authors:
+  - Steve Fulmer <sfulmer@redhat.com>
+description: >-
+  Ansible Collection for NVIDIA NIM (Inference Microservices). Provides modules for managing NIM endpoints, deployments, models, caching, scaling policies, and monitoring.
+license:
+  - GPL-3.0-or-later
+tags:
+  - infrastructure
+  - cloud
+  - monitoring
+  - tools
+dependencies: {}
+repository: https://github.com/stevefulme1/ansible-nvidia-nim
+documentation: https://github.com/stevefulme1/ansible-nvidia-nim/blob/main/README.md
+homepage: https://github.com/stevefulme1/ansible-nvidia-nim
+issues: https://github.com/stevefulme1/ansible-nvidia-nim/issues
+build_ignore:
+  - .git
+  - .github
+  - tests/output
