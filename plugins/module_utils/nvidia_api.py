@@ -14,7 +14,6 @@ author:
   - Steve Fulmer (@stevefulme1)
 """
 
-import json
 import time
 
 try:
