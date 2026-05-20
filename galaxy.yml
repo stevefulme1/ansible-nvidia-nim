@@ -5,8 +5,7 @@ version: 0.0.1
 readme: README.md
 authors:
   - Steve Fulmer <sfulmer@redhat.com>
-description: "EXPERIMENTAL - proof of concept, not production ready. >-"
-  Ansible Collection for NVIDIA NIM (Inference Microservices). Provides modules for managing NIM endpoints, deployments, models, caching, scaling policies, and monitoring.
+description: "EXPERIMENTAL - proof of concept, not production ready. Ansible Collection for NVIDIA NIM (Inference Microservices). Provides modules for managing NIM endpoints, deployments, models, caching, scaling policies, and monitoring."
 license:
   - GPL-3.0-or-later
 tags:
